@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil - CampoRed</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+
+    <header class="navbar">
+
+        <div class="logo-container">
+            <img src="img/logo.png" alt="CampoRed">
+            <h1>CampoRed</h1>
+        </div>
+
+        <div class="search-container">
+            <input type="text"
+                placeholder="Buscar cultivos, expertos o remedios...">
+        </div>
+
+        <nav class="top-nav">
+            <a href="index.html">Inicio</a>
+            <a href="foro.html">Foro</a>
+            <a href="categorias.html">Categorías</a>
+            <a href="perfil.html">Perfil</a>
+            
+        </nav>
+
+    </header>
+
+    <main class="main-container">
+
+        <!-- SIDEBAR -->
+
+        <aside class="sidebar">
+
+            <div class="user-summary">
+
+                <img src="img/persona1.png" alt="Usuario">
+
+                <h3>Mi Campo</h3>
+
+                <p>Agricultor Experto</p>
+
+            </div>
+
+            <nav class="sidebar-menu">
+
+                <a href="index.html">🏠 Inicio</a>
+
+                <a href="categorias.html">🌱 Cultivos</a>
+
+                <a href="enfermedades.html">🦠 Enfermedades</a>
+
+                <a href="plagas.html">🐛 Plagas</a>
+
+                <a href="remedios.html">🏡 Remedios Caseros</a>
+
+                <a href="foro.html">❓ Foro</a>
+
+            </nav>
+
+            <a href="perfil.html" class="profile-button">
+                Mi Perfil
+            </a>
+
+        </aside>
+
+        <!-- CONTENIDO PERFIL -->
+
+        <section class="profile-content">
+
+            <!-- BANNER -->
+
+            <div class="profile-banner">
+
+                <img
+                    src="img/banner perfil.webp"
+                    alt="Banner Perfil">
+
+            </div>
+
+            <!-- TARJETA PERFIL -->
+
+            <section class="profile-card">
+
+                <div class="profile-info">
+
+                    <img
+                        src="img/persona1.png"
+                        alt="Mateo Restrepo"
+                        class="profile-photo">
+
+                    <div>
+
+                        <h2>Mateo Restrepo</h2>
+
+                        <p>
+                            📍 Huila, Colombia
+                        </p>
+
+                        <p>
+                            🌱 15 años en Café
+                        </p>
+
+                        <p>
+                            ⭐ Reputación:
+                            <strong>4.8 / 5</strong>
+                        </p>
+
+                    </div>
+
+                </div>
+
+                <div class="profile-actions">
+
+                    <button id="follow-btn">
+                        Seguir
+                    </button>
+
+                    <button id="message-btn">
+                        ✉️
+                    </button>
+
+                </div>
+
+            </section>
+
+            <!-- PESTAÑAS -->
+
+            <section class="profile-tabs">
+
+                <button class="tap-btn">
+                    Mis Publicaciones
+                </button>
+
+                <button class="tap-btn">
+                    Mis Respuestas
+                </button>
+
+                <button class="tap-btn">
+                    Reputación
+                </button>
+
+            </section>
+
+            <!-- ESTADISTICAS + PUBLICACIONES -->
+
+            <div class="profile-main">
+
+                <!-- IZQUIERDA -->
+
+                <aside class="profile-sidebar">
+
+                    <section class="stats-card">
+
+                        <h3>Estadísticas</h3>
+
+                        <p>
+                            Publicaciones:
+                            <strong>124</strong>
+                        </p>
+
+                        <p>
+                            Respuestas útiles:
+                            <strong>842</strong>
+                        </p>
+
+                        <p>
+                            Puntos de impacto:
+                            <strong>4.2K</strong>
+                        </p>
+
+                    </section>
+
+                    <section class="expertise-card">
+
+                        <h3>Áreas de Experiencia</h3>
+
+                        <ul>
+
+                            <li>
+                                Cultivo de Café
+                            </li>
+
+                            <li>
+                                Roya del Café
+                            </li>
+
+                            <li>
+                                Fertilización Orgánica
+                            </li>
+
+                            <li>
+                                Microclimas
+                            </li>
+
+                        </ul>
+
+                    </section>
+
+                </aside>
+
+                <!-- PUBLICACIONES -->
+
+                <section class="user-posts">
+
+                    <!-- PUBLICACIÓN 1 -->
+
+                    <article class="post">
+
+                        <p>
+                            <strong>Hace 2 días</strong>
+                        </p>
+
+                        <h3>
+                            Tratamiento efectivo para la Broca
+                            sin químicos agresivos
+                        </h3>
+
+                        <p>
+
+                            He probado este método en mi finca
+                            durante los últimos 3 años con
+                            excelentes resultados.
+
+                            Se trata de una mezcla fermentada
+                            de ingredientes naturales que ayuda
+                            a controlar la plaga sin afectar
+                            la calidad del cultivo.
+
+                        </p>
+
+                        <div class="post-actions">
+
+                            <span>👍 42</span>
+
+                            <span>💬 18</span>
+
+                            <span>🔄 Compartir</span>
+
+                        </div>
+
+                    </article>
+
+                    <!-- PUBLICACIÓN 2 -->
+
+                    <article class="post">
+
+                        <p>
+                            <strong>Hace 1 semana</strong>
+                        </p>
+
+                        <h3>
+                            Guía de Maduración Óptima
+                        </h3>
+
+                        <img
+                            src="img/publicacion1generica.jpg"
+                            alt="Publicación">
+
+                        <p>
+
+                            Identificar el color exacto es
+                            crucial para la calidad en taza.
+
+                            Comparto fotos de mi última
+                            cosecha para ayudar a quienes
+                            están comenzando.
+
+                        </p>
+
+                        <div class="post-actions">
+
+                            <span>👍 156</span>
+
+                            <span>💬 45</span>
+
+                            <span>🔄 Compartir</span>
+
+                        </div>
+
+                    </article>
+
+                    <!-- PUBLICACIÓN 3 -->
+
+                    <article class="post">
+
+                        <p>
+                            <strong>Hace 2 semanas</strong>
+                        </p>
+
+                        <h3>
+
+                            ¿Alguien ha notado cambios
+                            en el régimen de lluvias
+                            en el sur del Huila?
+
+                        </h3>
+
+                        <p>
+
+                            Mis sensores están registrando
+                            un 15% menos de humedad que el
+                            año pasado por estas fechas.
+
+                            Me interesa conocer si otros
+                            productores están observando
+                            el mismo comportamiento.
+
+                        </p>
+
+                        <div class="post-actions">
+
+                            <span>👍 21</span>
+
+                            <span>💬 62</span>
+
+                            <span>🔄 Compartir</span>
+
+                        </div>
+
+                    </article>
+
+                </section>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <script src="js/perfil.js"></script>
+
+</body>
+
+</html>

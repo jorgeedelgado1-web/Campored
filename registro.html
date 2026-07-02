@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro - CampoRed</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="register-page">
+
+    <main class="register-container">
+
+        <!-- Panel izquierdo -->
+        <section class="register-banner">
+
+            <div class="banner-overlay">
+
+                <img src="img/logo.png" alt="Logo CampoRed" class="logo">
+
+                <h1>
+                    Cultivando el
+                    <br>
+                    futuro juntos.
+                </h1>
+
+                <p>
+                    Únete a la red más grande de expertos agrícolas y
+                    <br>
+                    optimiza tus cultivos con conocimiento compartido.
+                </p>
+
+            </div>
+
+        </section>
+
+        <!-- Panel derecho -->
+        <section class="register-form-container">
+
+            <div class="register-header">
+
+                <h2>Crea tu cuenta</h2>
+
+                <p>
+                    Completa tus datos para empezar a colaborar.
+                </p>
+
+            </div>
+
+            <form class="register-form">
+
+                <div class="row">
+
+                    <div class="input-group">
+                        <label for="nombre">Nombre Completo</label>
+                        <input
+                            type="text"
+                            id="nombre"
+                            name="nombre"
+                            placeholder="Ej. Juan Pérez"
+                            required>
+                    </div>
+
+                    <div class="input-group">
+                        <label for="ubicacion">Ubicación</label>
+                        <input
+                            type="text"
+                            id="ubicacion"
+                            name="ubicacion"
+                            placeholder="Ciudad, Región">
+                    </div>
+
+                </div>
+
+                <div class="row">
+
+                    <div class="input-group">
+                        <label for="cultivo">Cultivo Principal</label>
+
+                        <select id="cultivo" name="cultivo">
+
+                            <option value="">
+                                Selecciona un cultivo
+                            </option>
+
+                            <option>Arroz</option>
+                            <option>Maíz</option>
+                            <option>Cacao</option>
+                            <option>Café</option>
+                            <option>Palma</option>
+
+                        </select>
+                    </div>
+
+                    <div class="input-group">
+                        <label for="experiencia">
+                            Experiencia (Años)
+                        </label>
+
+                        <input
+                            type="number"
+                            id="experiencia"
+                            name="experiencia"
+                            min="0"
+                            value="0">
+                    </div>
+
+                </div>
+
+                <div class="input-group">
+
+                    <label for="correo">
+                        Correo Electrónico
+                    </label>
+
+                    <input
+                        type="email"
+                        id="correo"
+                        name="correo"
+                        placeholder="usuario@ejemplo.com"
+                        required>
+
+                </div>
+
+                <div class="input-group">
+
+                    <label for="password">
+                        Contraseña
+                    </label>
+
+                    <input
+                        type="password"
+                        id="password"
+                        name="password"
+                        placeholder="********"
+                        required>
+
+                </div>
+
+                <div class="checkbox-group">
+
+                    <input
+                        type="checkbox"
+                        id="terminos"
+                        required>
+
+                    <label for="terminos">
+
+                        Acepto los
+                        <a href="#">
+                            Términos de Servicio
+                        </a>
+
+                        y la
+
+                        <a href="#">
+                            Política de Privacidad
+                        </a>
+
+                        de CampoRed.
+
+                    </label>
+
+                </div>
+
+                <button type="submit">
+                    Unirme a la comunidad
+                </button>
+
+            </form>
+
+            <div class="login-link">
+
+                <p>
+
+                    ¿Ya tienes una cuenta?
+
+                    <a href="login.html">
+                        Inicia Sesión
+                    </a>
+
+                </p>
+
+            </div>
+
+            <div class="separator">
+
+                <hr>
+                <span>O CONTINÚA CON</span>
+                <hr>
+
+            </div>
+
+            <div class="social-buttons">
+
+                <button type="button">
+                    Google 
+                </button>
+
+                <button type="button">
+                    Facebook
+                </button>
+
+            </div>
+            <footer class="copyright">
+              © 2024 CampoRed. Cultivating Knowledge.
+           </footer>
+
+        </section>
+
+    </main>
+
+    <script src="js/registro.js"></script>
+
+</body>
+
+</html>

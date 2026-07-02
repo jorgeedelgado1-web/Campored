@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio - CampoRed</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- Barra superior -->
+    <header class="navbar">
+
+        <div class="logo-container">
+            <img src="img/logo.png" alt="CampoRed Logo" class="logo">
+            <h1>CampoRed</h1>
+        </div>
+
+        <div class="search-container">
+            <input type="text" placeholder="Buscar cultivos, plagas o consejos...">
+        </div>
+
+        <nav class="top-nav">
+            <a href="index.html">Inicio</a>
+            <a href="foro.html">Foro</a>
+            <a href="categorias.html">Categorías</a>
+            <a href="perfil.html">Perfil</a>
+            
+        </nav>
+
+    </header>
+
+    <!-- Contenedor principal -->
+    <main class="main-container">
+
+        <!-- Menú lateral izquierdo -->
+        <aside class="sidebar">
+
+            <div class="user-summary">
+
+                <img src="img/persona1.png" alt="Perfil">
+
+                <h3>Mi Campo</h3>
+
+                <p>Agricultor Experto</p>
+
+            </div>
+
+            <nav class="sidebar-menu">
+
+                <a href="index.html">🏠 Inicio</a>
+
+                <a href="categorias.html">🌱 Cultivos</a>
+
+                <a href="enfermedades.html">🦠 Enfermedades</a>
+
+                <a href="plagas.html">🐛 Plagas</a>
+
+                <a href="remedios.html">🏡 Remedios Caseros</a>
+
+                <a href="foro.html">❓ Foro</a>
+
+            </nav>
+
+            <a href="perfil.html" class="profile-button">
+                Mi Perfil
+            </a>
+
+        </aside>
+
+        <!-- Feed principal -->
+        <section class="feed">
+
+            <!-- Crear publicación -->
+
+            <div class="create-post">
+
+                <div class="create-post-header">
+
+                    <img src="img/persona1.png" alt="Usuario">
+
+                    <input
+                        type="text"
+                        placeholder="¿Qué está pasando en tu campo hoy?">
+
+                </div>
+
+                <div class="create-post-actions">
+
+                    <button type="button">
+                        📷foto / video
+                    </button>
+
+                    <button type="button">
+                        📍 Ubicación
+                    </button>
+
+                    <button type="button">
+                        🏷️ Etiqueta
+                    </button>
+
+                    <button type="button" id="publicar-btn">
+                        Publicar
+                    </button>
+
+                </div>
+
+            </div>
+
+            <!-- Publicación 1 -->
+
+            <article class="post">
+
+                <div class="post-header">
+
+                    <img src="img/carlos.jpg" alt="Autor">
+
+                    <div>
+
+                        <h3>Carlos Mendoza</h3>
+
+                        <p>Agricultor • Hace 2 h</p>
+
+                    </div>
+
+                </div>
+
+                <div class="post-content">
+
+                    <p>
+                        Necesito consejos sobre la roya del café.
+                        Mis plantas jóvenes están empezando a mostrar
+                        manchas anaranjadas en el envés de las hojas.
+                        ¿Alguien ha probado algún tratamiento biológico?
+                    </p>
+
+                </div>
+
+                <img
+                    src="img/enfermedadcafe.jpg"
+                    alt="Enfermedad en cultivo de café"
+                    class="post-image">
+
+                <div class="post-actions">
+
+                    <button>👍 24</button>
+
+                    <button>💬 8</button>
+
+                    <button>🔄 Compartir</button>
+
+                </div>
+
+            </article>
+
+            <!-- Publicación 2 -->
+
+            <article class="post">
+
+                <div class="post-header">
+
+                    <img src="img/lucia.jpg" alt="Autor">
+
+                    <div>
+
+                        <h3>Lucía Gómez</h3>
+
+                        <p>Ingeniera Agrónoma • Hace 5 h</p>
+
+                    </div>
+
+                </div>
+
+                <div class="post-content">
+
+                    <p>
+                        La mancha de asfalto del maíz es causada por el hongo 
+                        Phyllachora maydis y se reconoce por puntos negros brillantes
+                        como brea, rodeados de un halo amarillo en las hojas. Inicia 
+                        abajo y sube con la humedad, secando la planta aunque llueva. 
+                        Reduce la fotosíntesis y, si llega a la hoja bandera, puede 
+                        tumbar más del 60% de la cosecha. Se controla con fungicidas a
+                        base de Estrobilurinas + Triazoles aplicados a tiempo.
+                    </p>
+
+                </div>
+
+                <img
+                    src="img/enfermedadmaiz.jpg"
+                    alt="Cultivo de maíz"
+                    class="post-image">
+
+                <div class="post-actions">
+
+                    <button>👍 156</button>
+
+                    <button>💬 42</button>
+
+                    <button>🔄 Compartir</button>
+
+                </div>
+
+            </article>
+
+        </section>
+
+        <!-- Panel derecho -->
+
+        <aside class="right-panel">
+
+            <section class="featured-users">
+
+                <h3>Usuarios Destacados</h3>
+
+                <div class="featured-user">
+
+                    <img src="img/mateo.jpg" alt="Usuario">
+
+                    <div>
+
+                        <h4>Mateo Salazar</h4>
+
+                        <p>2.4K seguidores</p>
+
+                    </div>
+
+                </div>
+
+                <div class="featured-user">
+
+                    <img src="img/rivas.avif" alt="Usuario">
+
+                    <div>
+
+                        <h4>Elena Rivas</h4>
+
+                        <p>1.8K seguidores</p>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+            <section class="popular-topics">
+
+                <h3>Temas Populares</h3>
+
+                <ul>
+
+                    <li>#Cacao</li>
+
+                    <li>#PlagasMaíz</li>
+
+                    <li>#Hidroponía</li>
+
+                    <li>#Mercados</li>
+
+                    <li>#FertilizantesOrgánicos</li>
+
+                </ul>
+
+            </section>
+
+            <footer class="side-footer">
+
+                <p>CampoRed</p>
+
+                <p>Normas de la Comunidad</p>
+
+                <p>Términos del Servicio</p>
+
+                <p>Política de Privacidad</p>
+
+                <p>
+                    © 2024 CampoRed.
+                    Cultivating Knowledge.
+                </p>
+
+            </footer>
+
+        </aside>
+
+    </main>
+
+    <!-- Botón flotante -->
+
+    <button class="floating-button">
+        ✏️
+    </button>
+
+    <script src="js/index.js"></script>
+
+</body>
+
+</html>
